@@ -19,3 +19,9 @@ steps:
   commands:
   - echo bonjour
   - echo monde
+
+trigger:
+  branch:
+  - master
+  event:
+  - pull_request
